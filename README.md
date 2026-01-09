@@ -5,6 +5,18 @@
 苦労した点: 「Amazonのロボット判定を回避するために、User-Agentの設定を工夫しました」
 [amazon_results.csv](https://github.com/user-attachments/files/24517960/amazon_results.csv)
 
+
+## 🚀 使い方（cmdで入力)
+1. ライブラリをインストール
+   `pip install requests beautifulsoup4`
+2. プログラムを実行
+   `py amazon_search.py`
+
+   ## 🛠 特徴
+- **環境を選ばない:** ExcelがなくてもGoogleスプレッドシート等で閲覧可能なCSV形式を採用。
+- **実用性:** 収集したデータは `amazon_results.csv` として保存され、文字化け対策（UTF-8 with BOM）済み。
+- **回避策:** Amazonのアクセス制限を考慮したヘッダー設定。
+
 実行するとこのような感じになります
 
 
